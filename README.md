@@ -54,14 +54,15 @@ export default {
 | pColors          | Array   | [{...pColor,pst:0},{...pColor,pst:100}]                                  | Gradient Default color Array |
 | showClose        | boolean | true                                                                     | true or false                |
 | closeOnClickBody | boolean | false                                                                    | click on body close picker   |
-| titleConfig      | object  | {text:"颜色选择器",show: true}                                           |                              |
+| titleConfig      | object  | {text:"颜色选择器",show: true}                                            |                              |
+| degLabel         |         | angle                                                                    | deg label text               |
 |                  |         |                                                                          |                              |
 ## Events
 
-| Name   | Params | Description                 |
-| ------ | ------ | --------------------------- |
-| @changeColor |{ style, colors, deg, color }    | color chang callback |
-| @onClose |    | picker hide callback |
+| Name             | Params                               | Description                 |
+| ---------------- | ------------------------------------ | --------------------------- |
+| @changeColor     | { style, colors, deg, color }        | color chang callback        |
+| @onClose         |                                      | picker hide callback        |
 
 ### example
 
