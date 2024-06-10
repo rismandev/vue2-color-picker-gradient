@@ -10,7 +10,6 @@
         </div>
         <div class="gcolor"  v-if="type === 'gradient'">
           <div class="gcolor_deg" v-if="!disabledColorDeg">
-            <div class="gcolor_deg_span">{{ degLabel }}</div>
             <Slider v-model="deg" :min="0" :max="360" :show-tooltip="false" />
             <input class="number_input" v-model="deg" />
           </div>
